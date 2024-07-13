@@ -10,7 +10,7 @@ const Projects = () => {
         initial ={{opacity : 0 , x:-100}}
         transition={{duration : 1.5}}
 
-         className="my-20 text-center text-4xl">
+         className="my-20 text-center text-4xl pl-40">
             Projects
         </motion.h1>
         <div>
