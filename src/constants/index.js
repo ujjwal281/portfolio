@@ -15,6 +15,7 @@ export const PROJECTS = [
     description:
       "A fully functional website which uses youtube api to take data and having differnt section in which it shows differnt contents like gym , study , coding . Also have a serach options to watch your desize contents.",
     technologies: ["HTML", "TailwindCss", "React", "javascript" , "Api"],
+    link :"https://github.com/ujjwal281/Umedia",
   },
   {
     title: "Song App",
@@ -22,13 +23,15 @@ export const PROJECTS = [
     description:
       "A song app uses spotify api to fetch data and user can able to play song . User can liste any any song which user wants",
     technologies: ["HTML", "CSS", "React", "Api" , "Bootsrap" , "Javascript","MUI"],
+    link :"https://github.com/ujjwal281/songapp",
   },
   {
     title: "Authorization Page",
     image: project3,
     description:
       "A authorization page having sign up and login function for user and also sigup/login using goofle ",
-    technologies: ["HTML", "React", "Tailwindcss" , "Firebase" , 'Javascript']
+    technologies: ["HTML", "React", "Tailwindcss" , "Firebase" , 'Javascript'],
+    link:"",
   },
   {
     title: "Potfolio website",
@@ -36,6 +39,8 @@ export const PROJECTS = [
     description:
       "portfolio website in user can put their portfolio and sent to ",
     technologies: ["HTML", "Vite.js", "framer-motion", "Tailwindcss"],
+    link : "https://github.com/ujjwal281/portfolio",
+
   },
 ];
 
