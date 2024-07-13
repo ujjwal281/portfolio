@@ -31,7 +31,7 @@ export const PROJECTS = [
     description:
       "A authorization page having sign up and login function for user and also sigup/login using goofle ",
     technologies: ["HTML", "React", "Tailwindcss" , "Firebase" , 'Javascript'],
-    link:"",
+    link:"https://github.com/ujjwal281/authorization",
   },
   {
     title: "Potfolio website",
