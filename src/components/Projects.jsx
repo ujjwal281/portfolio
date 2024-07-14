@@ -22,7 +22,8 @@ const Projects = () => {
                     transition={{duration : 0.5}}
                     className="w-full lg:w-1/4">
                     <a href={project.link}>
-                    <img 
+                    <motion.img 
+                     whileHover={{ scale: 1.1 }}
                         src={project.image}
                         width={150}
                         height={150} 
