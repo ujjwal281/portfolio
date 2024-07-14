@@ -1,3 +1,4 @@
+import { motion} from "framer-motion"
 import About from "./components/About"
 import Contact from "./components/Contact"
 import Hero from "./components/Hero"
@@ -6,7 +7,9 @@ import Projects from "./components/Projects"
 import Technologies from "./components/Technologies"
 
 
+
 function App() {
+
 
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:text-cyan-200 selection:bg-cyan-300">
@@ -17,7 +20,7 @@ function App() {
       </div>
 
       </div>
-      <div className="container mx-auto px-8">
+      <motion.div transition={{duration:2}} whileInView={{opacity : 1 , y: 0 }}  className="container mx-auto px-8">
 
       <Navbar/>
       <Hero/>
@@ -26,7 +29,7 @@ function App() {
       <Projects/>
       <Contact/>
 
-      </div>
+      </motion.div>
     </div>
   )
 }
