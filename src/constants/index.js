@@ -45,7 +45,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "A-5 / 122-C Paschim Vihar , New Delhi",
   phoneNo: "+919899721868",
   email: "negiujjwal78@gmail.com",
 };
