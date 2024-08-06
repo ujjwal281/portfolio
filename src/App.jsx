@@ -7,7 +7,6 @@ import Projects from "./components/Projects"
 import Technologies from "./components/Technologies"
 
 
-
 function App() {
 
 
@@ -28,7 +27,6 @@ function App() {
       <Technologies/>
       <Projects/>
       <Contact/>
-
       </motion.div>
     </div>
   )

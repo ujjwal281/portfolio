@@ -28,8 +28,10 @@ const About = () => {
                  
                 className=" my-2 max-w-xl py-6">{ABOUT_TEXT}</motion.p>
             </div>
-          </div>
         </div>
+        </div>
+
+      
     </div>  
   )
 }
