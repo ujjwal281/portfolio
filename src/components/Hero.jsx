@@ -1,6 +1,5 @@
-import { motion } from 'framer-motion';
+import { motion ,useDragControls} from 'framer-motion';
 import {HERO_CONTENT} from '../constants';
-// import {profilePic} from "../assets/kevinRushProfile.png";
 
 const container = (delay) => ({
     hidden : {x:-100 , opacity:0},
@@ -13,6 +12,7 @@ const container = (delay) => ({
 
 
 const Hero = () => {
+    const controls = useDragControls();
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35 mt-32">
         <div className="flex flex-wrap">
@@ -23,12 +23,16 @@ const Hero = () => {
                  initial = "hidden"
                  animate = "visible"
                 className="pb-16 text-6xl font-extrabold tracking-tight lg:mt-16 lg:text-6xl "> Ujjwal Singh Negi</motion.h1>
+
                 <motion.span
                 variants={container(0.5)}
                 initial = "hidden"
                 animate = "visible"
+                drag="x" dragControls={controls} 
                 className="bg-gradient-to-r from-pink-300 via-slate-200  to-purple-400 bg-clip-text text-3xl tracking-tight text-transparent">
+                    <div>
                     Front End Developer
+                </div>
                 </motion.span>
                 <motion.p 
                 variants={container(1)}
