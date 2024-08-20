@@ -49,7 +49,7 @@ export const PROJECTS = [
     description:
       "this is a website in which text content converted into speech . User can write any thing and then listen it in differnt language in differnt accent",
     technologies: ["HTML", "javascript", "css"],
-    link : "https://github.com/ujjwal281/portfolio",
+    link : "https://github.com/ujjwal281/textToSpeech.git",
 
   },
 ];
