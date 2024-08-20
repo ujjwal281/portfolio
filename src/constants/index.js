@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate Front End Developer. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL , Express.js and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -39,6 +40,15 @@ export const PROJECTS = [
     description:
       "portfolio website in user can put their portfolio and sent to ",
     technologies: ["HTML", "Vite.js", "framer-motion", "Tailwindcss"],
+    link : "https://github.com/ujjwal281/portfolio",
+
+  },
+  {
+    title: "Text to Speech",
+    image: project5,
+    description:
+      "this is a website in which text content converted into speech . User can write any thing and then listen it in differnt language in differnt accent",
+    technologies: ["HTML", "javascript", "css"],
     link : "https://github.com/ujjwal281/portfolio",
 
   },
