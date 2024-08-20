@@ -29,6 +29,8 @@ const Hero = () => {
                 initial = "hidden"
                 animate = "visible"
                 drag="x" dragControls={controls} 
+                dragConstraints={{ right: 0, left: 0 }}
+                whileTap={{ cursor: "grabbing" }}
                 className="bg-gradient-to-r from-pink-300 via-slate-200  to-purple-400 bg-clip-text text-3xl tracking-tight text-transparent">
                     <div>
                     Front End Developer
